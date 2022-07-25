@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+
+
+html {
+    background-image: url("media/notes.jpg");
+    background-size:cover;
+
+}
+
+kbd {
+    border: none;
+
+position: relative;
+}
+
+.white-keys kbd {
+    background-color: #ecebea;
+    padding: 140px 30px 60px 30px;
+
+    margin-left: 0;
+    vertical-align: bottom;
+    width: 70px;
+    height: 100px;
+
+}
+
+.black-keys kbd {
+    background-color: #000000;
+    padding: 10px 10px;
+    margin: 0 5px;
+    width: 40px;
+    height: 100px;
+    display: inline-block;
+    color: #ecebeb;
+    top: -158px;
+    position: relative;
+    z-index: 1;
+
+}
+
+h2 {
+    margin-top: 2em;
+text-align: center;
+    color: #000000;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.container {
+    text-align:center;
+    margin-top: 20vw;
+
+}
+.empty_button{
+    opacity: 0;
+    background-color: #000000;
+    padding: 10px 10px;
+    margin: 0 5px;
+    width: 40px;
+    height: 100px;
+    display: inline-block;
+    color: white;
+    top: -156px;
+    position: relative;
+    z-index: 1;
+}
